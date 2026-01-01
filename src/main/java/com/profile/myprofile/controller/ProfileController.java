@@ -10,6 +10,6 @@ public class ProfileController {
     @GetMapping("/profile")
     public String showProfile(Model model) {
         model.addAttribute("pageTitle", "My Profile");
-        return "profile"; // Trả về file templates/ai-tools.html
+        return "profile";
     }
 }
