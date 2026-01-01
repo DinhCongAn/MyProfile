@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ProfileController {
 
-    @GetMapping("/profile")
+    @GetMapping("/")
     public String showProfile(Model model) {
         model.addAttribute("pageTitle", "My Profile");
         return "profile";
